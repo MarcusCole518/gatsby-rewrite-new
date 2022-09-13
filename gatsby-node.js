@@ -8,8 +8,7 @@ exports.createPages = async ({ actions }) => {
   })
   createRedirect({
     fromPath: `/page-3`,
-    // rewriting to a site on gatsby-cloud
-    toPath: "https://collarcitycode.com/",
+    toPath: "https://www.eql.xyz/en-US/cookie-policy/",
     statusCode: 200,
   });
 }
